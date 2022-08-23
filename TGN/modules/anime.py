@@ -5,8 +5,8 @@ import textwrap
 import bs4
 import jikanpy
 import requests
-from TGNRobot import OWNER_ID, SUDO_USERS, dispatcher
-from TGNRobot.modules.disable import DisableAbleCommandHandler
+from TGN import OWNER_ID, SUDO_USERS, dispatcher
+from TGN.modules.disable import DisableAbleCommandHandler
 from telegram import (InlineKeyboardButton, InlineKeyboardMarkup, ParseMode,
                       Update)
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
