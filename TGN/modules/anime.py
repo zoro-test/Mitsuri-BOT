@@ -5,7 +5,7 @@ import textwrap
 import bs4
 import jikanpy
 import requests
-from TGNRobot import DEV_USERS, OWNER_ID, DRAGONS, dispatcher
+from TGNRobot import OWNER_ID, SUDO_USERS, dispatcher
 from TGNRobot.modules.disable import DisableAbleCommandHandler
 from telegram import (InlineKeyboardButton, InlineKeyboardMarkup, ParseMode,
                       Update)
