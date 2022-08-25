@@ -96,5 +96,5 @@ __help__ = """
  ❍ Here is the help for couple:
 /couple - To Choose Couple Of The Day
  """
-__mod_name__ = "couple"
+__mod_name__ = "Couple"
 
