@@ -81,19 +81,11 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-────「 [GodfatherBot](https://telegra.ph/file/bfa2fbaf65ac04fad78ee.jpg) 」────
-ʜᴇʏ! {}
-ɪ ᴀᴍ 𝐆𝐨𝐝𝐟𝐚𝐭𝐡𝐞𝐫𝐛𝐨𝐭 ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ᴀᴅᴠᴀɴᴄᴇ ɢʀᴏᴜᴏ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ᴀ ʟᴏᴛ ᴏғ sᴘᴇᴄɪᴀʟɪᴛʏ.
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-I have lots of handy features such as:
-‣ Warning system
-‣ Artificial intelligence
-‣ Flood control system
-‣ Note keeping system
-‣ Filters keeping system
-‣ Approvals and much more.
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-➛ᴛʀʏ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴛᴏ ᴋɴᴏᴡ ᴍʏ ᴀʙɪʟɪᴛɪᴇs ××
+────「*Hey, I'm Mitsuri* [🌸](https://telegra.ph/file/f63ce11f76db7f086af1f.jpg) 」────
+*×× I'm a Hashira! A Anime themed advance group management bot with a lot of advance Features! ××*
+➖➖➖➖➖➖➖➖➖➖
+*×× Try The Help & Command Buttons Below To Know My Abilities ××*
+➖➖➖➖➖➖➖➖➖➖
 """
 
 buttons = [
