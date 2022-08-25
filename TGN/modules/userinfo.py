@@ -292,7 +292,7 @@ def info(update: Update, context: CallbackContext):
     except:
         pass  # don't crash if api is down somehow...
 
-    disaster_level_present = False
+    disaster_level_present = True
 
     
 
