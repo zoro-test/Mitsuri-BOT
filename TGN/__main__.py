@@ -91,30 +91,18 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="💕 Add To Your Group 💕", url="t.me/TGN_Ro_bot?startgroup=new"),
-    ],
-    [                  
-                       InlineKeyboardButton(
-                             text="Support👥",
-                             url=f"https://t.me/GodfatherSupport"),
-                       InlineKeyboardButton(
-                             text="Updates📡",
-                             url=f"https://t.me/The_Godfather_Network"),
+            text="🌸 Add Mitsuri to your Group 🌸", url="t.me/MitsuriRobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(
-              text="Help",
-              callback_data="help_back"),
-        InlineKeyboardButton(
-              text="About",
-              callback_data="shukurenai_"),   
+        InlineKeyboardButton(text="⚙ Logs", url="https://t.me/est_official"),
+        InlineKeyboardButton(text="🎉 EST News", url="https://t.me/estanimes"),
+        InlineKeyboardButton(text="❗Updates", url="https://t.me/DevXAssociation"),
     ],
     [
-        InlineKeyboardButton(
-            text="Donate 🌹", 
-            callback_data="shukurenai_donate"),
-    ],
-
+        InlineKeyboardButton(text="🔐 Help and Commands", callback_data="help_back"),
+        
+   
+    ], 
 ]
 
 
