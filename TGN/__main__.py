@@ -110,7 +110,7 @@ HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
 HELP_MSG = "Click the button below to get help manu in your pm."
-DONATE_STRING = """Contact to **@Godfatherakkii**"""
+DONATE_STRING = """I'm free for everyone"""
 HELP_IMG = "https://telegra.ph/file/d394e1486b4fa1cfcb322.jpg"
 GROUP_IMG = "https://telegra.ph/file/3f3c3af0e2236daad0dd2.jpg"
 
