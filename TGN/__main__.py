@@ -112,7 +112,7 @@ Click on the button bellow to get description about specifics command."""
 HELP_MSG = "Click the button below to get help manu in your pm."
 DONATE_STRING = """I'm free for everyone"""
 HELP_IMG = "https://telegra.ph/file/d394e1486b4fa1cfcb322.jpg"
-GROUP_IMG = "https://telegra.ph/file/3f3c3af0e2236daad0dd2.jpg"
+GROUP_IMG = "https://telegra.ph/file/a6b19ff35f810c3a5b549.jpg"
 
 
 
@@ -229,15 +229,15 @@ def start(update: Update, context: CallbackContext):
     else:
         first_name = update.effective_user.first_name
         update.effective_message.reply_photo(
-             GROUP_IMG, caption= "*Hey {},*\n*GodfatherBot is here*\n*Power lavel time* : {} ".format(
+             GROUP_IMG, caption= "*Hey {},*\n*MitsuriRobot is here!*\n*Power lavel time* : {} ".format(
              first_name,uptime
             ),
             parse_mode=ParseMode.MARKDOWN,
         reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="✧ Support ", url=f"https://t.me/GodfatherSupport"),
-                  InlineKeyboardButton(text="✧ Updates ", url=f"t.me/The_Godfather_Network"),
+                  InlineKeyboardButton(text="✧ Support ", url=f"https://t.me/Mitsuri_X_Support"),
+                  InlineKeyboardButton(text="✧ Updates ", url=f"t.me/DevXAssociation"),
                   ]
                 ]
             ),
