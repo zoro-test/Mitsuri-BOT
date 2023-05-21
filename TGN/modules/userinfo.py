@@ -288,7 +288,7 @@ def info(update: Update, context: CallbackContext):
         if spamwtc:
             text += "\n\n<b>This person is Spamwatched!</b>"
             text += f"\nReason: <pre>{spamwtc.reason}</pre>"
-            text += "\nAppeal at @SpamWatchSupport"
+            text += "\nAppeal at @StrawHat_Support"
     except:
         pass  # don't crash if api is down somehow...
 
@@ -330,9 +330,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Support", url="https://t.me/GodfatherSupport"),
+                                "Support", url="https://t.me/StrawHat_Support"),
                             InlineKeyboardButton(
-                                "Creator", url="https://t.me/The_Godfather_Network")
+                                "Creator", url="https://t.me/Zoro_StrawHat7")
                         ],
                     ]
                 ),
@@ -348,9 +348,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Support", url="https://t.me/GodfatherSupport"),
+                                "Support", url="https://t.me/StrawHat_Support"),
                             InlineKeyboardButton(
-                                "Creator", url="https://t.me/The_Godfather_Network")
+                                "Creator", url="https://t.me/Zoro_StrawHat7")
                         ],
                     ]
                 ),
@@ -422,7 +422,7 @@ def set_about_me(update: Update, context: CallbackContext):
 
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
-    stats = "❂ <b>Stats For <a href='https://t.me/TGN_Ro_bot'>GodfatherBot</a>:</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
+    stats = "❂ <b>Stats For <a href='https://t.me/StrawHat_Bots'>StrawHat BOTs</a>:</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
     update.effective_message.reply_text(
         result,
