@@ -81,8 +81,8 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-────「*Hey, I'm Mitsuri* [🌸](https://telegra.ph/file/f63ce11f76db7f086af1f.jpg) 」────
-*×× I'm a Hashira! A Anime themed advance group management bot with a lot of advance Features! ××*
+────「*Hey, I'm Nami - StrawHat* [🌸](https://telegra.ph/file/ece7789ffcadc96933fda.jpg) 」────
+*×× I'm a Straw Hat BOT! A Anime themed advance group management bot with a lot of advance Features! ××*
 ➖➖➖➖➖➖➖➖➖➖
 *×× Try The Help & Command Buttons Below To Know My Abilities ××*
 ➖➖➖➖➖➖➖➖➖➖
@@ -91,15 +91,17 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="🌸 Add Mitsuri to your Group 🌸", url="t.me/MitsuriRobot?startgroup=true"),
+            text="➕ Add Nami to your Group ➕", url="t.me/MitsuriRobot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="⚙ Logs", url="https://t.me/est_official"),
-        InlineKeyboardButton(text="🎉 EST News", url="https://t.me/estanimes"),
-        InlineKeyboardButton(text="❗Updates", url="https://t.me/DevXAssociation"),
+        InlineKeyboardButton(text="Support Group ⭐", url="https://t.me/strawhat_support"),
+        InlineKeyboardButton(text="Update CHANNEL 📢", url="https://t.me/Strawhat_Bots"),
     ],
     [
-        InlineKeyboardButton(text="🔐 Help and Commands", callback_data="help_back"),
+        InlineKeyboardButton(text="Join My World🌎", url="https://t.me/Team_Straw_Hat"),
+    ],
+    [
+        InlineKeyboardButton(text="See My Commands 🔐", callback_data="help_back"),
         
    
     ], 
@@ -109,7 +111,7 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-HELP_MSG = "Click the button below to get help manu in your pm."
+HELP_MSG = "Click the button below to get help menu in your pm."
 DONATE_STRING = """I'm free for everyone"""
 HELP_IMG = "https://telegra.ph/file/d394e1486b4fa1cfcb322.jpg"
 GROUP_IMG = "https://telegra.ph/file/a6b19ff35f810c3a5b549.jpg"
