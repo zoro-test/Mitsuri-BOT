@@ -87,5 +87,4 @@ PyYAML
 humanize
 python-rapidjson
 covid
-python -m pep517.build
 
