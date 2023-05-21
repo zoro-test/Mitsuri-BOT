@@ -84,18 +84,18 @@ PM_START_TEXT = """
 ────「*Hey, I'm Nami - StrawHat* [🌸](https://telegra.ph/file/ece7789ffcadc96933fda.jpg) 」────
 *×× I'm a Straw Hat BOT! A Anime themed advance group management bot with a lot of advance Features! ××*
 ➖➖➖➖➖➖➖➖➖➖
-*×× Try The Help & Command Buttons Below To Know My Abilities ××*
+*×× Tap "See My Commands 🔐" Button Below To Know My Abilities ××*
 ➖➖➖➖➖➖➖➖➖➖
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕ Add Nami to your Group ➕", url="t.me/MitsuriRobot?startgroup=true"),
+            text="➕ Add Nami to your Group ➕", url="t.me/Nami_StraHatBOT?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="Support Group ⭐", url="https://t.me/strawhat_support"),
-        InlineKeyboardButton(text="Update CHANNEL 📢", url="https://t.me/Strawhat_Bots"),
+        InlineKeyboardButton(text="Support Group ⭐", url="https://t.me/StrawHat_Support"),
+        InlineKeyboardButton(text="Update CHANNEL 📢", url="https://t.me/StrawHat_Bots"),
     ],
     [
         InlineKeyboardButton(text="Join My World🌎", url="https://t.me/Team_Straw_Hat"),
@@ -231,15 +231,15 @@ def start(update: Update, context: CallbackContext):
     else:
         first_name = update.effective_user.first_name
         update.effective_message.reply_photo(
-             GROUP_IMG, caption= "*Hey {},*\n*MitsuriRobot is here!*\n*Power lavel time* : {} ".format(
+             GROUP_IMG, caption= "*Hey {},*\n*Nami - StrawHat is Here!*\n*Power level time* : {} ".format(
              first_name,uptime
             ),
             parse_mode=ParseMode.MARKDOWN,
         reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="✧ Support ", url=f"https://t.me/Mitsuri_X_Support"),
-                  InlineKeyboardButton(text="✧ Updates ", url=f"t.me/DevXAssociation"),
+                  InlineKeyboardButton(text="Support Group ⭐", url=f"https://t.me/StrawHat_Support"),
+                  InlineKeyboardButton(text="Update CHANNEL 📢", url=f"https://t.me/StrawHat_Bots"),
                   ]
                 ]
             ),
@@ -372,15 +372,15 @@ def shukurenai_about_callback(update, context):
     query = update.callback_query
     if query.data == "shukurenai_":
         query.message.edit_text(
-            text="๏ I'm *GODFATHERBOT*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *Nami StrawHat BOT*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n_ GodfatherBot licensed under the GNU General Public License v3.0_"
-            "\n\n Click on button bellow to get basic help for Anie.",
+            "\n\n_ Nami StrawHat BOT licensed under the GNU General Public License v3.0_"
+            "\n\n Click on button bellow to get basic help.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -447,14 +447,14 @@ def shukurenai_about_callback(update, context):
         )
     elif query.data == "shukurenai_support":
         query.message.edit_text(
-            text="*๏ Anie support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on GodfatherBot.",
+            text="*Support Group ⭐*"
+            "\nJoin My Support Group/Channel for see or report a problem on StrawHat BOTs.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="https://t.me/GodfatherSupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/The_Godfather_Network"),
+                    InlineKeyboardButton(text="Support", url="https://t.me/StrawHat_Support"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/StrawHat_Bots"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="shukurenai_"),
@@ -467,15 +467,13 @@ def shukurenai_about_callback(update, context):
 
     elif query.data == "shukurenai_credit":
         query.message.edit_text(
-            text=f"๏ Credis for GodfatherBot\n"
+            text=f"๏ Credis, StrawHat BOTs\n"
             "\nHere Developers Making And Give Inspiration For Made The Anie",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Zaid", url="https://t.me/Timesisnotwaiting"),
-                    InlineKeyboardButton(text="Null", url="https://t.me/Shubhanshutya"),
-                    InlineKeyboardButton(text="Akki", url="https://t.me/Godfatherakki"), 
+                    InlineKeyboardButton(text="Zoro", url="https://t.me/Zoro_StrawHat7"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="shukurenai_"),
@@ -485,12 +483,12 @@ def shukurenai_about_callback(update, context):
         )
     elif query.data == "shukurenai_donate":
         query.message.edit_text(
-            text=f"๏ Donate for GodfatherBot",
+            text=f"๏ Donate for StrawHat BOTs",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Razorpay", url="https://rzp.io/l/GODFATHERDONATIONS"),
+                    InlineKeyboardButton(text="⭐DONATE⭐", url="http://telegra.ph/Donate--Team-Straw-Hat-04-26"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="shukurenai_back"),
@@ -765,7 +763,7 @@ def donate(update: Update, context: CallbackContext):
         if OWNER_ID != 1606221784:
             update.effective_message.reply_text(
                 "I'm free for everyone 😎 If you wanna make me smile, just join"
-                "[My Channel](https://t.me/TGN_Donation_Bot)".format(DONATION_LINK),
+                "[My World🌎](https://t.me/Team_Straw_Hat)".format(DONATION_LINK),
                 parse_mode=ParseMode.MARKDOWN,
             )
     else:
@@ -778,11 +776,11 @@ def donate(update: Update, context: CallbackContext):
             )
 
             update.effective_message.reply_text(
-                "I've PM'ed you about donating to my creator!"
+                "I've PM'ed You about Donating to My Creator!"
             )
         except Unauthorized:
             update.effective_message.reply_text(
-                "Contact me in PM first to get donation information."
+                "Contact me in PM first to get Donation information."
             )
 
 
@@ -801,7 +799,7 @@ def migrate_chats(update: Update, context: CallbackContext):
     for mod in MIGRATEABLE:
         mod.__migrate__(old_chat, new_chat)
 
-    LOGGER.info("Successfully migrated!")
+    LOGGER.info("Successfully Migrated!")
     raise DispatcherHandlerStop
 
 
@@ -809,16 +807,16 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[𝐈 𝐀𝐦 𝐎𝐧𝐥𝐢𝐧𝐞](https://telegra.ph/file/d394e1486b4fa1cfcb322.jpg)", parse_mode=ParseMode.MARKDOWN,
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[𝐈 𝐀𝐦 𝐎𝐧𝐥𝐢𝐧𝐞](https://telegra.ph/file/ece7789ffcadc96933fda.jpg)", parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                   [                  
                        InlineKeyboardButton(
                              text="Support👥",
-                             url=f"https://t.me/GodfatherSupport"),
+                             url=f"https://t.me/StrawHat_Support"),
                        InlineKeyboardButton(
                              text="Updates📡",
-                             url="https://t.me/The_Godfather_Network")
+                             url="https://t.me/StrawHat_Bots")
                      ] 
                 ]
             ),
