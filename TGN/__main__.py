@@ -113,8 +113,8 @@ Click on the button bellow to get description about specifics command."""
 
 HELP_MSG = "Click the button below to get help menu in your pm."
 DONATE_STRING = """I'm free for everyone"""
-HELP_IMG = "https://telegra.ph/file/d394e1486b4fa1cfcb322.jpg"
-GROUP_IMG = "https://telegra.ph/file/a6b19ff35f810c3a5b549.jpg"
+HELP_IMG = "https://telegra.ph/file/ece7789ffcadc96933fda.jpg"
+GROUP_IMG = "https://telegra.ph/file/ece7789ffcadc96933fda.jpg"
 
 
 
