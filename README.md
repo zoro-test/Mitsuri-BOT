@@ -31,7 +31,7 @@ The easiest way to deploy this Bot is via Heroku.
 
 ## CREDIT
 ```
-[ZORO](https://t.me/Zoro_StrawHat7)
+<a href="https://t.me/Zoro_StrawHat7"><b>ZORO</b></a>
 ```
 
  
