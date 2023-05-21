@@ -88,4 +88,4 @@ humanize
 python-rapidjson
 covid
 pyproject.toml-based
-backports.zoneinfo;python_version3.11.3
+backports.zoneinfo;python_version3.9
