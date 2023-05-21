@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/bfa2fbaf65ac04fad78ee.jpg">
+  <img src="https://telegra.ph/file/ece7789ffcadc96933fda.jpg">
 </p>
 
 <h1 align="center"><b> GodfatherBot Robot  </b></h1>
