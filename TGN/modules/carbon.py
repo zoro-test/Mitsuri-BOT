@@ -27,15 +27,15 @@ async def carbon_func(_, message):
 @pbot.on_message(filters.command("lele"))
 async def repo(_, message):
     await message.reply_text(
-        f"""✨ **Donate for Mitsuri RoBot** 
+        f"""✨ **Donate for Nami StrawHat Bot** 
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Repo", url="Www.google.com"), 
+                        "Repo", url="www.github.com"), 
                     InlineKeyboardButton(
-                        "Support", url="https://t.me/{Support_id}")
+                        "Support", url="https://t.me/StrawHat_Support")
                 ]
             ]
         ),
