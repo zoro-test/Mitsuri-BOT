@@ -67,6 +67,7 @@ envparse
 #profanity (Credits to Julia)
 better_profanity
 textblob 
+numpy
 nudepy
 nekos.py
 motor
@@ -87,4 +88,3 @@ PyYAML
 humanize
 python-rapidjson
 covid
-
